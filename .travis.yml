@@ -17,7 +17,7 @@ addons:
       - libfreetype6-dev
 cache:
   directories:
-  - $HOME/deps
+  - $TRAVIS_BUILD_DIR/deps
 script:
   # Link gcc-8 and g++-8 to their standard commands
   - sudo ln -s /usr/bin/gcc-8 /usr/local/bin/gcc
