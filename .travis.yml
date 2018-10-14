@@ -29,7 +29,7 @@ script:
   # Get newest cmake
   - sudo apt remove cmake
   - sudo apt-get purge cmake
-  - mkdir temp
+  - mkdir -p temp
   - cd temp
   - wget https://cmake.org/files/v3.11/cmake-3.11.4.tar.gz
   - tar -xzf cmake-3.11.4.tar.gz
